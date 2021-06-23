@@ -1,9 +1,98 @@
-#tArea{
-    display: block;
+:root {
+  --primary-color: #ef9f26;
+  --secodary-color: rgb(236 231 88);
+  --third-color: rgb(200 196 68);
+  --brown: rgb(236, 155, 88);
 }
 
-#output{
-    height: 60px;
-    width: 80%;
-    border: 2px solid black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+header {
+  background: var(--secodary-color);
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 2rem;
+  margin: 0px;
+}
+
+#tArea {
+  display: block;
+  border: 0.2rem solid var(--secodary-color);
+  border-radius: 1rem;
+  width: 90%;
+  height: 19vh;
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+#output {
+  display: block;
+  min-width: 155vh;
+  min-height: 19vh;
+  border: 0.2rem solid var(--secodary-color);
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.ins {
+  margin: 1rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#img {
+  background: linear-gradient(transparent, var(--third-color)),
+    url("bgimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#btn {
+  background: var(--secodary-color);
+  border-radius: 1rem;
+  border: white;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  margin: 1rem;
+  font-size: larger;
+}
+
+footer {
+  padding: 0.51rem;
+  background: var(--secodary-color);
+  padding: 3rem;
+  padding-bottom: 0;
+}
+
+#info {
+  text-align: center;
+  padding-bottom: 0;
+  margin-left: 61rem;
+}
+#para {
+  text-align: center;
+}
+#para p {
+  margin: 0.5rem;
+}
+
+
+
+

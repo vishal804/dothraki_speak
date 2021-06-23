@@ -4,8 +4,6 @@ var textOutput = document.getElementById("output")
 
 serverURL = "https://api.funtranslations.com/translate/dothraki.json"
 
-//serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" 
-
 function URL (text) {
     return serverURL +"?"+"text="+ text
 }
