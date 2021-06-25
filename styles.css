@@ -5,62 +5,50 @@
   --brown: rgb(236, 155, 88);
 }
 
-* {
-  padding: 0;
+body{
+  background: linear-gradient(transparent, var(--third-color)),
+  url("bgimage.jpg");
   margin: 0;
-  box-sizing: border-box;
+  background-size: cover;
 }
-
 header {
   background: var(--secodary-color);
-  min-height: 10vh;
-  display: flex;
-  justify-content: center;
+  padding: 0.5rem;
+    text-align: center;
 }
 
 h1 {
   padding: 2rem;
   margin: 0px;
 }
-
+#content{
+  max-width: 700px;
+    margin: auto;
+}
 #tArea {
   display: block;
-  border: 0.2rem solid var(--secodary-color);
-  border-radius: 1rem;
-  width: 90%;
-  height: 19vh;
-  margin: 1rem;
-  padding: 1rem;
-  font-weight: bold;
+    height: 20vh;
+    width: 80%;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 1rem;
+    font-size: large;
 }
 
 #output {
   display: block;
-  min-width: 155vh;
-  min-height: 19vh;
-  border: 0.2rem solid var(--secodary-color);
-  border-radius: 1rem;
-  margin: 1rem;
-  padding: 1rem;
+    height: 20vh;
+    width: 80%;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 1rem;
+    font-size: large;
+    background-color: white;
 }
 
-.ins {
-  margin: 1rem;
-  padding: 1rem;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-#img {
-  background: linear-gradient(transparent, var(--third-color)),
-    url("bgimage.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top left;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+#btn-ins{
+  display: block;
+    text-align: -webkit-center;
 }
 
 #btn {
@@ -75,24 +63,25 @@ h1 {
 }
 
 footer {
-  padding: 0.51rem;
-  background: var(--secodary-color);
-  padding: 3rem;
-  padding-bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: var(--secodary-color);
+    padding: 0.5rem 0rem;
+}
+
+
+#para {
+  max-width: 700px;
+    margin: auto;
+}
+#para p{
+  margin: 0;
 }
 
 #info {
-  text-align: center;
-  padding-bottom: 0;
-  margin-left: 61rem;
+  font-size: smaller;
 }
-#para {
-  text-align: center;
+#info p{
+  margin: 0;
 }
-#para p {
-  margin: 0.5rem;
-}
-
-
-
 
