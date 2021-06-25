@@ -1,1 +1,1 @@
-This is an English to Dothraki translater APP 
+This app convert your text from English to Dothraki language
